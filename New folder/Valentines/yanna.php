@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title></title>
+		<style>
+			.container{
+				border: 1px solid black;
+				background-color: white;
+				position: absolute;
+				height: 750px;
+				width: 700px;
+				top: 50px;
+				left: 500px;
+			}
+			.yanna {background-image: url("pic4.jpg");
+			 background-repeat: no-repeat;
+			 background-position: center;
+			 background-size: cover;
+			 height: 500px;
+			 width: 500px;
+			 margin-top: 50px;
+			 margin-left: 100px;
+			
+			 animation:slide 18s infinite;}
+			 @keyframes slide{
+			 	25%{background-image: url("yanna.jpg");}
+			 	35%{background-image: url("pic2.jpg");}
+			 	45%{background-image: url("pic3.jpg");}
+			 	55%{background-image: url("pic1.jpg");}
+			 	65%{background-image: url("pic5.jpg");}
+			 	75%{background-image: url("pic6.jpg");}
+			 	100%{background-image: url("pic7.jpg");}
+			 }
+			 h1{
+			 	margin-top: 50px;
+			 	text-align: center;
+			 	font-style: Roboto Condensed;
+			 }
+			 h2{
+			 	margin:0px;
+			 	text-align: center;
+			 }
+		</style>
+	</head>
+<body style="background-color: black;">
+<div class="container">
+	<h1>HAPPY VALENTINES LOVE</h1>
+	<h2>I LOVE YOUUUU <3</h2>
+	<div class="yanna">
+	</div>
+</div>
+</body>	
+</html>
